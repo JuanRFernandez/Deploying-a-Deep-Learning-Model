@@ -1,0 +1,21 @@
+[project]
+name = "deploying-a-deep-learning-model"
+version = "0.1.0"
+description = "Local adaptation of the Coursera MLEP 'Deploying a Deep Learning Model' labs"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "cvlib==0.2.7",
+    "opencv-python-headless==4.9.0.80",
+    "Pillow==10.2.0",
+    "tensorflow==2.15.0",
+    "tensorflow-io-gcs-filesystem==0.31.0",
+    "tensorflow-intel==2.15.0; sys_platform == 'win32'",
+    "uvicorn==0.29.0",
+    "python-multipart==0.0.9",
+    "fastapi==0.110.1",
+    "nest-asyncio==1.6.0",
+    "requests==2.34.2",
+    "notebook",
+    "ipykernel",
+    "setuptools<81",
+]

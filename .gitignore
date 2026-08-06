@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+deploying-a-deep-learning-model/images_with_boxes/
+deploying-a-deep-learning-model/images_uploaded/
+deploying-a-deep-learning-model/images_predicted/
+
+# Trained model artifacts and history checkpoints (large, regenerable)
+Week 2 Ungraded Lab A Journey through Data/models/
+Week 2 Ungraded Lab A Journey through Data/histories/
+Week 2 Ungraded Lab A Journey through Data/*.pkl
+
+# cvlib downloaded weights cache
+deploying-a-ml-model-with-docker/mlepc1w1_cloud/.cvlib/
